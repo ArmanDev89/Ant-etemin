@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Таблица</title>
+
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <style>
+        table{
+            margin: 20vh auto 0;
+        }
+
+        caption{
+            font-family: "Montserrat", sans-serif;
+            font-weight: 800;
+            color: #8D41D6	;
+            font-size: 2vw;
+            margin-bottom: 10px;
+        }
+
+        td{
+            font-family: "Montserrat", sans-serif;
+            font-weight: 600;
+            color: rgb(228, 228, 228);
+        }
+    </style>
+</head>
+<body>
+    <table border="3" bordercolor = "#6A5ACD" bgcolor = "#A069D6" title="Одежда">
+        <title>Hello</title>
+        <caption>Цена товаров</caption>
+        <tr height = "50px" align="center" valign = "middle"> 
+            <td width = "250px">Одежда</td>
+            <td width = "250px">Для</td>
+            <td width = "250px">Цена</td>
+        </tr>
+        <tr height = "50px" align="center" valign = "middle"> 
+            <td rowspan="2">Футболка</td>
+            <td >Мужская</td>
+            <td >9 999 тг</td>
+        </tr>
+        <tr height = "50px" align="center" valign = "middle"> 
+            <td>Женская</td>
+            <td>9 999 тг</td>
+        </tr>
+        <tr height = "50px" align="center" valign = "middle">
+            <td>Кепка</td>
+            <td>Мужская/женская</td>
+            <td>4 999 тг</td>
+        </tr>
+        <tr height = "50px" align="center" valign = "middle">
+            <td colspan="4">Планируется выпуск новой одежды</td>
+        </tr>
+    </table>
+</body>
+</html>
